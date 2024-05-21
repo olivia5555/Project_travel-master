@@ -29,50 +29,159 @@
 
 
 
-  <div class="container-fluid px-0">
+  <!-- ------------------------------------------- -->
+
+  <div class="container-fluid px-0 ">
 
     <div class="row row-cols-1">
       <div class="col">
-        <div class="col">
+        <div class="col fixed-top">      <!-- 固定上方 -->  
+      
           <nav class="navbar navbar-expand-sm " id="head">
+ <img src="/2.png" alt="" width="200px" height="100px">
+            <div class="container-fluid justify-content-end  px-0">
 
-            <div class="container-fluid justify-content-end px-0">
-
-
+             
               <!-- 大小切換 -->
           <button type="button" class="btn btn-outline-secondary m-1" id="big">大</button>
      
-          <button type="button" class="btn btn-outline-secondary m-1" id="sm">小</button>
+          <button type="button" class="btn btn-outline-secondary m-2" id="sm">小</button>
 
-              <!-- Links -->
+              <!-- 頁首 -->
               <ul class="navbar-nav ">
 
                 <li class="nav-item">
-                  <a class="nav-link" href="#"><button class="btn btn-secondary">旅遊資訊</button></a>
+                  <a class="nav-link" href="#">旅遊資訊</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#"><button class="btn btn-secondary">成為導遊</button></a>
+                  <a class="nav-link" href="#">成為導遊</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#"><button class="btn btn-secondary">會員登入</button></a>
+                  <a class="nav-link" href="#">會員登入</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#"><button class="btn btn-secondary">註冊會員</button></a>
+                  <a class="nav-link" href="#">註冊會員</a>
                 </li>
               </ul>
             </div>
 
+
+
+
+
           </nav>
-        </div>
 
-        <!--=== Breadcrumbs ===-->
 
-        <nav style="--bs-breadcrumb-divider: '>'; background-color:#4e5482;"  aria-label="breadcrumb">
-          <ol class="breadcrumb">
+
+</div>
+
+
+
+
+
+           <!--=== Breadcrumbs ===-->
+
+          
+
+<!--=== Breadcrumbs    end===-->
+
+
+<!-- ============================================================ -->
+
+<section class="banner ">
+  <!-- <nav style="--bs-breadcrumb-divider: '>'"  aria-label="breadcrumb">
+          <ol class="breadcrumb ">
             <li class="breadcrumb-item p-2"><a href="#"  id="bread">首頁</a></li>
             <li class="breadcrumb-item p-2 active" aria-current="page" style="color: white;">旅遊資訊</li>
           </ol>
-        </nav>
+        </nav> -->
+
+
+
+        
+<!-- <div class="bgm">
+<div class="banner-body">
+  <img class="banner-img  banner-img-mo" src="/景點圖片/一中.png" alt="" width="260px" height="364">
+  <img class="banner-img banner-img-ph" src="/景點圖片/大樓.png" alt="" width="466" height="651">
+  <img class="banner-img banner-img-pad" src="/景點圖片/瑪麗.png" alt="" width="356" height="545">
+  </div>
+
+
+</div> -->
+
+
+<!-- <------------> 
+<div class="banner-container container auto">
+  <div class="banner-head">
+    <h1 class="title" style="color: white">趣哪的旅遊資訊<small><br>TripNa</small></h1>
+    
+    <h2 class="subtitle"  style="color: white">您要的所有旅遊資訊都在這</h2>
+    <p class="con_font" style="color: white">完善的旅遊規劃，都在趣哪上找到<br>提前的準備<br>為您帶來難忘的回憶</p>
+    <a href="#" class="btn">點此查看景點介紹</a>
+  </div>
+  <div class="banner-body">
+
+    <img class="banner-img banner-img-pad" src="/景點圖片/台灣.png" alt="" width="250px" height="545px">
+    <img class="banner-img  banner-img-mo" src="/景點圖片/美食.jpeg" alt="" width="260px" height="364px">
+    <img class="banner-img banner-img-ph" src="/icon/太魯閣.webp" alt="" width="700px" height="900px">
+    
+
+  </div>
+</div>
+
+</section>
+
+
+ 
+        </div>
+
+       
+       
+
+  
+
+
+
+
+        <!-- -------------------輪播畫面----------------------------- -->
+ <!-- <div id="carouselExampleDark" class="carousel carousel-dark slide w-100" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img src="/icon/太魯閣.webp" class="d-block w-100" height="800px" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>First slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="/icon/彰化肉圓.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div> -->
 
         <!-- 內容資訊部分 -->
         <div class="container">
@@ -81,9 +190,9 @@
             <!-- <div class="row row-cols-2"> -->
 
 <!-- ------------------------------天氣資訊內容 ------------------------------------------->
-            <div class="col-12 ">
+            <div class="col-12 m-3">
               <div class="dropdown btn-group">
-                <button type="button" class="btn btn-secondary" id="loca"></button>
+                <button type="button" class="btn btn-secondary"  id="loca"></button>
                 <button class="btn btn-secondary  dropdown-toggle dropdown-toggle-split" type="button"
                   id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"><!-- bootstrap設定按鈕顯示的樣式 -->
                   <span style="display: inline-block; vertical-align: middle;"> 
@@ -120,6 +229,8 @@
 
                     <tr id="img" class="text-center">
                     </tr>
+
+                   
                   </tbody>
                 </table>
               </div>
@@ -146,40 +257,38 @@
     <li><a class="dropdown-item_1" href="#"></a></li>
     <li><hr class="dropdown-divider"></li>
     <li><a class="dropdown-item_1" href="#">基隆端到基隆交流道</a></li> 
+    <li><a class="dropdown-item_1" href="#">八堵交流道到大華系統交流道</a></li> 
   </ul>
 </div>
 <!-- -----------------------------------車況表單 ------------------------------>
-                  <div id="traffic_table">
-                  <table class="table" >
-  <thead>
-    <tr>
-      <th scope="col">#</th>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
-      <th scope="col">Handle</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td colspan="2">Larry the Bird</td>
-      <td>@twitter</td>
-    </tr>
-  </tbody>
-</table>
-                </div>
+<div class="card-group">
+  <div class="card">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">基隆端到基隆交流道</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+</div>  
+
+
               </div>
 
                 <!-- ----------------------------------地震區域--------------------------- -->
@@ -263,45 +372,44 @@
       <!-- 地震資料顯示DIV欄位 bootstrap套版摺疊 -->
       <hr />
 
-      <!-- -------------------輪播畫面----------------------------- -->
-<div id="carouselExampleDark" class="carousel carousel-dark slide w-50" data-bs-ride="carousel">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active" data-bs-interval="10000">
-      <img src="/icon/太魯閣.webp" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
-      </div>
-    </div>
-    <div class="carousel-item" data-bs-interval="2000">
-      <img src="/icon/彰化肉圓.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-        <p>Some representative placeholder content for the second slide.</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
-      </div>
+
+
+     
+
+
+<!-- --------------------------------------精選主題卡片 --------------------------------->
+
+
+<div class="trip">
+<div class="card-group p-20" >
+  <div class="card">
+    <img src="/景點圖片/Untitled.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">太平古農莊文物館</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
     </div>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
+  <div class="card">
+    <img src="/景點圖片/瑪麗.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">瑪麗普休閒農業區</h5>
+      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="/景點圖片/一中.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">一中商圈</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
 </div>
+</div>
+
+
       <!-- https://opendata.cwa.gov.tw/api/v1/rest/datastore/F-D0047-091?Authorization=CWA-C0D27692-4189-4521-80B1-6805AE7B21F5 -->
       <!-- https://opendata.cwa.gov.tw/api/v1/rest/datastore/E-A0016-001?Authorization=CWA-C0D27692-4189-4521-80B1-6805AE7B21F5&format=JSON&OriginTime=3068-51-92T40%3A99%3A08 -->
       <script>
@@ -465,8 +573,9 @@ function cityinfo(selectedCity, selectedCityIndex){
     <div class="safe"></div>
     
     <p class="card-text">未達下列標準之地震</p>
-    <a href="#" class="card-link"><p class=right>未達下列標準之地震</p> <div class="safe_1"></div></a>
-    <p class=right>震度分級燈號                                                ‘</p>
+
+    <a href="#" class="card-link" "text-end"><p class=right>未達下列標準之地震                   </p> <div class="safe_1"></div></a>
+    <p class=right>震度分級標準  </p>
       <a href="#" class="card-link"><p class=right>芮氏規模5.5以上，最大震度4級以上</p><div class="middle"></div></a>
       <a href="#" class="card-link"><p class=right>芮氏規模6.0以上，最大震度5弱以上</p><div class="large"></div></a>
       <a href="#" class="card-link"><p class=right>芮氏規模6.5以上，最大震度6弱以上</p><div class="danger"></div></a>
@@ -567,7 +676,7 @@ function generateTrafficTable(data){
 
   $(document).find(function(){
  
-    $('#traf').append(`<a lass="dropdown-item_1" href="#" >基隆端到基隆交流道</a>`)
+    // $('#traf').append(`<a lass="dropdown-item_1" href="#" >基隆端到基隆交流道</a>`)
   })
 }
 
