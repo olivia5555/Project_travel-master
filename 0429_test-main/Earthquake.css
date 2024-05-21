@@ -1,0 +1,118 @@
+#body{font-family: "Noto Serif TC", serif;
+background-color: #dee0fb;
+}
+#bread{
+color: white;
+text-decoration: none;
+font-family: "Noto Serif TC", serif;
+}
+
+#head{
+background-color: #e8eafe;}
+
+.Eqk{
+    background-color: rgba(253, 253, 253, 0.534); 
+    height: 350px; 
+    padding-top: 20px;
+padding-left: 20px;
+margin-left: 100px;
+margin-bottom: 20px;
+width: 450px;
+border-radius: 10px;
+
+}
+
+#demo{
+margin-left: 45px;
+}
+#readmore{
+float: right;
+margin-top: 10px;
+text-decoration: none;
+}
+
+#readmore>a{
+text-decoration: none;
+
+}
+
+#btnGetOpenData{
+float: right;
+}
+.date{
+
+    color: rgb(16, 132, 156);
+}
+
+.safe {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(16, 177, 16);
+    border-radius: 50%;
+  }
+  
+  
+  
+
+  
+
+
+  
+ 
+  .left {
+    float: left;
+    width: 40%;
+  }
+  
+  .tips {
+   
+    width: 100%;
+    /* display: flex;  */
+  }
+  .card-body{
+  
+    
+  }
+
+  .right{
+    font-size: 12px;
+    display: flex; 
+    float: right;
+  }
+
+  .safe_1 {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(16, 177, 16);
+    border-radius: 50%;
+    display: flex; 
+    float: right;
+  }
+  .middle{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(243, 235, 22);
+    border-radius: 50%;
+    display: flex;
+    float: right;
+  }
+  .large{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(201, 126, 28);
+    border-radius: 50%;
+    display: flex;
+    float: right;
+  }
+  .danger{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(218, 26, 26);
+    border-radius: 50%;
+    display: flex;
+    float: right;
+  }
+.card{
+
+ display: flex; 
+}
