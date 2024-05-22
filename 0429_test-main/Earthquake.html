@@ -117,7 +117,7 @@
     
     <h2 class="subtitle"  style="color: white">您要的所有旅遊資訊都在這</h2>
     <p class="con_font" style="color: white">完善的旅遊規劃，都在趣哪上找到<br>提前的準備<br>為您帶來難忘的回憶</p>
-    <a href="#" class="btn">點此查看景點介紹</a>
+    <a href="#" class="btn">點此開始製訂行程</a>
   </div>
   <div class="banner-body">
 
@@ -258,13 +258,24 @@
                   <!-- <button id="btnroad">即時路況</button> -->
 
                   <!-- Example split danger button -->
+
+<select name="" id="selectroad">
+  <option value="">基隆端到基隆交流道</option>
+  <option value="">八堵交流道到大華系統交流道</option>
+  <option value="">潮州交流道</option>
+  <option value="">泰山轉接道到林口</option>
+  <option value="">中壢服務區到內壢</option>
+</select>
+
 <div class="btn-group m-2">
-  <button type="button" class="btn btn-outline-secondary secondary">選擇道路</button>
-  <button type="button" class="btn btn-outline-secondary secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+  <!-- <button type="button" class="btn btn-outline-secondary secondary">選擇道路</button> -->
+  <!-- <button type="button" class="btn btn-outline-secondary secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false"> -->
     <span class="visually-hidden">Toggle Dropdown</span>
   </button>
+
+
   <!-- <ul class="dropdown-menu_1" > -->
-    <!-- <!-- <li><a class="dropdown-item_1" href="#">Action</a></li> -->
+    <!-- <li><a class="dropdown-item_1" href="#">Action</a></li> -->
     <!-- <li id="traf"><a href="#">國道一號</a> </li>
     <li><a class="dropdown-item_1" href="#"></a></li>
     <li><hr class="dropdown-divider"></li>
@@ -276,10 +287,10 @@
 <div class="card border-success mb-3" style="max-width: 25rem; height: 22rem;">
   <div class="card-header bg-transparent border-success">國道一號</div>
   <div class="card-body text-success" style="background-color:#10882493 ;">
-    <h5 class="card-title">南向時速：69</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <h5 class="card-title">北向時速：72</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <h5 class="card-title" style="color: rgb(255, 255, 255);">南向時速：69</h5>
+    <p class="card-text" style="color: rgb(255, 255, 255);">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <h5 class="card-title" style="color: rgb(255, 255, 255);">北向時速：72</h5>
+    <p class="card-text" style="color: rgb(255, 255, 255);">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
   </div>
   <div class="card-footer bg-transparent border-success">基隆端到基隆交流道</div>
 </div>
@@ -322,7 +333,30 @@
   
 
                 </div>
- <div class="col-4"></div>
+ <!-- <div class="col-4">
+
+  <div class="card" style="width: 10rem;">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">An item</li>
+      <li class="list-group-item">A second item</li>
+      <li class="list-group-item">A third item</li>
+    </ul>
+    <div class="card-body">
+      <a href="#" class="card-link">Card link</a>
+      <a href="#" class="card-link">Another link</a>
+    </div>
+  </div> -->
+
+
+ </div>
+
+
+ 
 
               </div>
             </div>
@@ -388,7 +422,7 @@
     </div>
   </div>
   <div class="card">
-    <img src="/景點圖片/高雄.jpeg" class="card-img-top" alt="..." height="292px">
+    <img src="/景點圖片/高雄.jpeg" class="card-img-top" alt="..." height="358px">
     <div class="card-body">
       <h5 class="card-title">高雄流行音樂中心</h5>
       <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
@@ -467,8 +501,8 @@
 
     </div>
     <div class="col-5">
-    <h1 style="padding-top: 20px;">美食導覽</h1>
-      <div class="card w-95 text-white bg m-4 text-center" style="background-color:#4e5482;">
+    <h1 style="padding-top: 20px; text-align: center;">美食導覽</h1>
+      <div class="card w-80 text-white bg m-2 text-center" style="background-color:#4e5482; width: 41rem;">
         <div class="card-body">
           <h5 class="card-title">米其林指南</h5>
           <p class="card-text">一年一度的米其林指南，被視為城市的美食指標之一。
@@ -487,7 +521,7 @@
         </div>
       </div>
       
-      <div class=" row row-cols-1 row-cols-md-3 g-4" >
+      <div class=" row row-cols-1 row-cols-md-3 g-4 m-2" >
       <div class="card w-50 text-center" style="background-color:#666c9b2c;height:16rem">
         <div class="card-body">
           <h5 class="card-title">必比登推薦</h5>
@@ -496,7 +530,7 @@
         </div>
       </div>
 
-      <div class="card  m-4  " style="width: 15rem;background-color:#666c9b2c;height: 16rem;">
+      <div class="card  m-4  " style="width: 18rem;background-color:#666c9b2c;height: 16rem;">
         <div class="card-body text-center ">
           <h5 class="card-title">在地美食</h5>
           <p class="card-text">來到臺灣，怎麼能錯過在地的特色小吃！
@@ -510,10 +544,10 @@
 
   </div>
 
-
-
-
-
+<br><br><br><br><br><br><br><br><br><br>
+<div class="footer_1">
+<footer>123</footer>
+</div>
 <!-- ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝圓形圖片點擊放大＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝ -->
 
 

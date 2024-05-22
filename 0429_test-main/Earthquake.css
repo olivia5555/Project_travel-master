@@ -147,6 +147,14 @@ border-radius: 10px;
 
 }
 
+#selectroad{
+  padding: 8px;
+  margin-bottom: 5px;
+  border-radius: 20px;
+color: #ebecfd;
+  background-color: #4e5482;
+}
+
 #demo{
 margin-left: 45px;
 }
@@ -329,3 +337,9 @@ background-image: linear-gradient(135deg,#cf768889,#cdcfeeb0);
   
   } */
 
+  .footer_1{
+margin-top: 500px;
+width: 100%;
+height: 150px;
+background-color: #4e5482;
+  }
